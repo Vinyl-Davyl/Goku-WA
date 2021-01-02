@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+
+/*DEVELOPMENT PURPOSE*/
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 143, 96));
+    font-family: sans-serif;
+    color: white;
+}
+
+.location, .temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature{
+    flex-direction: column;
+}
+
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2{
+    font-size: 40px;
+} */
+
+
+body {
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+    opacity: 0; 
+    background-image: url(https://i.postimg.cc/kXq9Qmnj/bgd1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: rgb(83, 81, 81) !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+p, .color{
+    color: rgb(55, 70, 206);
+}
+p{
+   font-size: 1.7rem;
+   font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+.fill {
+	height: 100vh;
+	margin-bottom: 0;
+	box-shadow: 0 30px 50px rgba(250, 247, 247, 0.911); }
+.grad {
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #4a81e9, #94e9e2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #4a81e9, #94e9e2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #4a81e9, #94e9e2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #4a81e9, #94e9e2); /* Standard syntax */ }
+.pad-toggle {
+	margin-top: 10px;
+	padding-right: 25px; }
+#city-state {
+	font-weight: 700;
+	margin-top: 1.5em; }
+#country {
+	letter-spacing: 3px;
+	opacity: 0.8; }
+#icon1 {
+	max-width: 50%; }
+#temperature {
+	font-size: 8em;
+	font-family: 'Montserrat', sans-serif; }
+#condition {
+	opacity: 0.8; }
+#credits {
+	position: relative;
+	bottom: 0px; }
+
+/* Re-adjusts the Skycon - this makes the skycon somewhat responsive */
+@media only screen and (min-width: 640px) {
+    #icon1 {
+        width: 25%; }
+}
+
+@media only screen and (max-width: 768px) {
+    .container .row #temperature{
+        font-size: 11rem !important;
+      }
+}
+
+
+
