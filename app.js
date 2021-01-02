@@ -151,15 +151,15 @@ $(document).ready(function() {
                     } });
 
       var tempC = Math.round((temp - 32) * 5/9);
-    	$("#temperature").text(temp + "°c ");
+    	$("#temperature").text(temp + "°f ");
 
       // Engage 'Bootstrap Toggle'
     	$(function() {
         $('#unit-convert').change(function() {
           if ($(this).prop('checked')){
-    				$('#temperature').html(tempC + "°f");
+    				$('#temperature').html(tempC + "°c");
     			} else {
-    				$('#temperature').html(temp + "°c");
+    				$('#temperature').html(temp + "°f");
     			}
 
         })
